@@ -1,8 +1,8 @@
 window.onload = function () {
 
   var display = document.querySelector('#time'),
-  timer = new CountDownTimer(5),
-  timeObj = CountDownTimer.parse(5);
+  timer = new CountDownTimer(600),
+  timeObj = CountDownTimer.parse(600);
 
 
     format(timeObj.minutes, timeObj.seconds);

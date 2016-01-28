@@ -3,7 +3,7 @@ setTimeout(function(){
   console.log("1");
 
   swal("Don't be a potato!", "Time to work. Be productive, okay?")
-}, 5000);
+}, 10000);
 
 
 
